@@ -1,0 +1,88 @@
+body { padding-top:10px; padding-bottom:60px; font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif; }
+.red { color:#F33; }
+.blue { color:#08f; }
+.note { color:#999; }
+span.note strong { display:inline-block; background-color:#aaa; color:#fff; border-radius:4px; padding:0 2px; margin:0 4px; }
+.br { height:10px; line-height:10px; clear:both; width:100%; }
+h3 { margin-top:2em; display:inline-block; }
+.noborder { border:0 !important; }
+.noborder td { border:0 !important; }
+.tdfc td:first-child { font-size:16px; background-color: #f4f4f4; }
+/*代码*/
+.codebox, .codebox2 { position:relative; margin-bottom:2em; }
+.codebox .precolor { position:absolute; top:0px; right:0; padding:3px 10px;background-color:#fff; border:1px solid #ccc; border-top-right-radius:4px; border-bottom-left-radius:4px; }
+.codebox .run { padding:1em; border:1px solid #ccc; border-top:0; border-bottom-left-radius:4px; border-bottom-right-radius: 4px; }
+.codebox .col8 { padding-right:80%; }
+.codebox .col6 { padding-right:60%; }
+.codebox .col3 { padding-right:30%; }
+.codebox pre { border:1px solid #ccc; border-bottom:0; border-bottom-left-radius:0; border-bottom-right-radius:0; margin:0; }
+.codebox .run pre { border-bottom:1px solid #ccc; border-bottom-left-radius:4px; border-bottom-right-radius:4px; margin-bottom:1em; }
+.codebox2 { border-radius:4px; border:1px solid #ccc; }
+.codebox2 .run { padding:1em; margin-bottom: 2em; }
+.codebox2 pre { border-radius: 0; border-left:0; border-right:0; margin-bottom: 0; }
+.codebox2 pre:first-child { border-top:0; }
+.codebox2 .run:last-child { margin-bottom: 0; }
+
+.codebox .txt { padding:1em; padding-bottom:.5em; font-style:italic; }
+.codebox .txt code { margin:0 5px; }
+samp { display:block; font-size:18px; font-weight:bold; line-height:28px; margin:8px 0; }
+pre hr { border-top:1px dashed #ccc; margin-bottom: 0;}
+
+/*导航*/
+#menu li a { padding:4px 12px;}
+
+/*css3 example*/
+.box { width:100px; height:100px; float:left; margin-right:2em; text-align:center; color:#fff; font-size:16px; background-color:#f33; justify-content:center; align-items:center; display:-webkit-flex; }
+
+/*bootstrap栅格*/
+.borderbox { width:94%; margin:0 auto;}
+.borderbox div { background:#eee; border:1px solid #ccc;} 
+.redbox { border:1px dotted #ff9e9e !important;background-color:#ffdbdb !important;color:#ff9e9e; opacity:.6; }
+
+/*bootstrap图标*/
+.bs-glyphicons-list li { float:left; width:12%; height:125px; margin:2px; padding:1em; background-color:#eee; }
+.bs-glyphicons-list li:hover { background-color:#f8f8f8; }
+.bs-glyphicons-list .glyphicon-class { display:block; width:100%; font-size:12px; line-height:16px; text-align:center; }
+.bs-glyphicons-list .glyphicon { display:block; width:100%; height:44px; font-size:28px; text-align:center; }
+
+/*页面跳转*/
+#pagejumper {
+    position:fixed;
+    z-index:999;
+    top:0;
+    left:-190px;
+    width:200px;
+    height:100%;
+    padding-top: 1em;
+    background:rgba(0,0,0,.8);
+    color:#fff;
+    cursor:pointer;
+}
+#pagejumper li {
+    height:40px;
+    padding-left: 1em;
+    margin-bottom: 1px;
+}
+#pagejumper a {
+    display:block;
+    font-size: 16px;
+    line-height: 40px;
+}
+#pagejumper li:hover a {
+    text-decoration: none;
+    color:#71B3DE;
+}
+#pagejumper li:hover {
+    background-color: #294154;
+}
+#pagejumper li.active {
+	background-color: #2C5B7F
+}
+#pagejumper li.active a {
+	color:#fff;
+}
+
+/*菜单栏子选项*/
+.submenu { display: none; background-color:#ddd; box-shadow: 0 2px 0 #aaa inset; padding:10px 0;}
+.submenu a { display:block; width:100%; height:100%; text-decoration: none;  }
+.submenu a:hover { background-color:#ccc; }
